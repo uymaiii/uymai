@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+body {
+  background-color: #f3f3f3;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.container {
+  margin: 0 300px; background: #AFA5A5;
+	width: 1200px;
+}
+
+a {
+  text-decoration: none;
+	
+}
+#nav-horizontal h2{padding-left: 80px}
+#nav-horizontal a {
+  display: inline-block;
+	
+}
+#nav-horizontal ul {
+  list-style-type: none;
+
+  overflow: hidden;
+  float: right;
+	padding-right: 80px
+}
+
+#nav-horizontal ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.text-brand {
+  font-size: 30px;
+}
+.text-bold {
+  color: #181717;
+  font-weight: 800;
+}
+
+.text-title {
+  color: #060606;
+}
+
+* {
+  color: #717171;
+  font-size: 18px;
+}
+
+#introduce {
+  padding-top: 70px;
+  padding-bottom: 70px;
+	
+}
+
+
+.project {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  height: 300px;
+  max-height: 300px;padding-left: 80px;
+}
+.content {
+  float: left;
+  width: 30%;
+  height: 100%;
+  position: relative;
+}
+.shape {
+  width: 40%;
+  height: 70%;
+  float: right;
+  margin-top: 50px;
+  background: #606060;margin-right: 80px
+
+}
+#introduce h1 {
+  float: left;
+  width: 30%;padding-left: 80px
+}
+
+.hello {
+  font-size: 35px;
+}
+#introduce p {
+  float: right;
+  padding-top: 60px;
+  text-align: left;
+  width: 44.5%;
+}
+#seprate {
+  padding-top: 70px;
+}
+
+.small {
+  font-size: 13px;
+}
+
+.text-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.detail-text {
+  text-decoration: underline;color: black;
+}
+
+.project::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+hr {
+  color: black;
+}
+#footer{
+	background:#AFA5A5 ;
+	width: 900px;
+/*	text-align: center;*/
+	height: 200px;
+	clear: left;
+/*	color: white;*/
+	line-height: 300px;
+/*	margin-left: 300px;*/
+}
+#footer .text-title1{
+	color: blue;
+	padding-left: 80px;
+	float: left;text-decoration: underline;color: blue;
+/*	height: 200px;background: red;*/
+}
+#footer .meno{
+	height: 200px;
+/*	background: green;*/
+	width: 1150px
+}
+#footer ul li{
+	list-style: none;
+	float: right;
+/*	padding-right: 90px;*/
+	margin-right: 45px;
+	color: black;letter-spacing: -1px
+}
+#footer ul li a{
+	color: black;
+}
+
+
+
+
